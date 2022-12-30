@@ -8,7 +8,7 @@ public class ProblemSolvingPatterns extends Udemy {
         ArrayList<Integer> int2List = intToList(int2);
 
         // this inference in logic based on types is why Java is so secure yet so hard to read
-        if (int1List.size() != int2List.size() || int2List.size() == 0) {
+        if (int1List.size() != int2List.size() || int2List.isEmpty()) {
             return false;
         }
 

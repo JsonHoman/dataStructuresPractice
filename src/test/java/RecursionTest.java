@@ -63,7 +63,7 @@ public class RecursionTest {
         assertAll("",
                 () -> assertThat(result1).isEqualTo(6),
                 () -> assertThat(result2).isEqualTo(60),
-                () -> assertThat(result3).isEqualTo(0),
+                () -> assertThat(result3).isZero(),
                 () -> assertThat(result4).isEqualTo(-6)
         );
     }

@@ -1,7 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Recursion {
+    private Recursion() {}
 
     public static int power(int base, int exponent) {
         if (exponent == 0) {
